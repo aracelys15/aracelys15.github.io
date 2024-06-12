@@ -5,8 +5,9 @@
 #palette-1-color-1{
     background-color:#E8D7FF;
     color:rgb(6, 170, 225);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding:24px;
+    text-align:center
 }
 #palette-1-heading{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -15,7 +16,8 @@
 #palette-1-color-2{
     background-color:#FFD3E8;
     color:rgb(164, 33, 230);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
     padding:24px;
 }
 #palette-1-heading{
@@ -25,7 +27,8 @@
 #palette-1-color-3{
     background-color:#FFD7D5;
     color:rgb(130, 36, 7);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-align: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
     padding:24px;
 }
 #palette-1-heading{
@@ -35,7 +38,8 @@
 #palette-1-color-4{
     background-color:#F3FFE1;
     color:rgb(85, 208, 200);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-align: center;
+    font-family:fantasy;
+    text-align: center;
     padding:24px;
 }
 #palette-1-heading{
@@ -45,6 +49,7 @@
 #palette-1-color-5{
     background-color:#F4FDAF;
     color:rgb(220, 73, 196);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;    text-align: center;
+    font-family:unset;
+    text-align: center;
     padding:24px;
 }

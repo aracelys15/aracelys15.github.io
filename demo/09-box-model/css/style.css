@@ -1,0 +1,13 @@
+div{
+    border:10px double rgb(241, 7, 175);
+    margin:24px 0px;
+    padding:24px 36px
+    bacground: lightcoral;
+}
+
+p{
+    border:20px solid lightskyblue;
+    margin:60px;padding:48px 60px;
+    background-color: aqua;
+    border-radius:50%;
+}

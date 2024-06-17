@@ -1,0 +1,18 @@
+#navbar {
+   text-align:center;
+   padding:24px;
+   background-color:blueviolet
+}
+#navbar a{
+    color:white;
+    text-decoration: none;
+}
+p a{
+    color:plum
+}
+p.warning{
+    color:darkorchid;
+} 
+p.warning a{
+    color: fuchsia;
+}

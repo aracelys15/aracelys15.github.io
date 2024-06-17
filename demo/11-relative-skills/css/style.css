@@ -1,0 +1,20 @@
+img{
+    width:200px;
+}
+
+img.stretch{
+    width:100px;
+}
+
+div.outer-container{
+    border:3px solid pink
+}
+div.inner-container{
+    border:3px solid lightskyblue
+    width:50%;
+}
+.inner-container img{
+    width:50%;
+    border:3px solid purple
+    display:block;
+}

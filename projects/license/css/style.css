@@ -17,6 +17,7 @@
 #left-side {
     display: inline-block;
     width: 65%;
+    Color:black
 }
  
 #right-side{
@@ -27,7 +28,10 @@
  
 #id-and-expiration div{
     display: inline-block;
-
+    
+}
+#expiration div{
+    
 }
 #small-pic-container,
 #data-fields{

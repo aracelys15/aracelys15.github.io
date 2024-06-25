@@ -1,12 +1,17 @@
 * {
-    box-sizing: border-box;}
+    box-sizing: border-box;
+    }
     
     body {
-    margin: 0px;font-family: sans-serif;}
+    margin: 0px;
+    font-family: sans-serif;
+    }
     
     
     body {
-    background-color: #E0E0E0;color: #111111;}
+    background-color: #E0E0E0;
+    color: #111111;
+    }
     
     #three-columns {
         display: grid;
@@ -33,10 +38,10 @@
     }
     
     
-    #three-columns img {
+    /* #three-columns img {
     margin-top: 24px;
     width: 100%;
-    } 
+    }  */
     
     #three-columns h2,
     #three-columns h3 {
@@ -61,12 +66,12 @@
     display:flex;
     flex-direction: column;
    }
-   #column-3 img{
+   /* #column-3 img{
     width:100px;
     display:block;
     margin-left:auto;
     margin-right:auto;
-   }
+   } */
     #column-3{
     flex-direction:column
     }
@@ -87,8 +92,20 @@
     #info{
         display:flex;
         gap:5px;
+        align-items:center;
 
     }
     .ringlogo2{
-        width:20px;
+        width:50px;
+    }
+    #flexbuttons a{
+        text-decoration: none;
+        color:darkblue;
+
+    }
+    #button{
+        display:flex;
+        gap:5px;
+        align-items: center;
+        
     }

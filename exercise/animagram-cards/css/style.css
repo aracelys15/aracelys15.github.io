@@ -1,0 +1,56 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+* {
+    box-sizing: border-box}
+    
+    body {
+    margin: 0px;font-family: Arial, Helvetica, sans-serif;}
+    
+    
+    .card-container{
+    min-width: 600px
+    ;max-width: 1200px;
+    margin: 0px auto;}
+    
+    #section-2 {
+    background: radial-gradient(at top left, #d86fee,#8122ed)
+    ;padding: 48px;}
+    
+    
+    
+    
+    .card-style-2 {
+    display: flex;align-items: center;margin: 48px 0px;}
+    
+    
+    .card-style-2 .animagram-header {
+    flex: 1;}
+    
+    .card-style-2 .logo {
+    flex: 1;
+    padding: 36px;}
+    
+    
+    .card-style-2 .animagram-header img {
+    width: 100%;}
+    
+    .card-style-2 .logo h3 {
+    font-size: 48px;}
+    
+    
+    .card-style-2 .l  ogo a {
+    font-size: 28px;f
+    ont-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: #3f0791;
+    color: white;
+    padding: 24px 48px;
+    border-radius: 48px;}

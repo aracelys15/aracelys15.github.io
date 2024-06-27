@@ -7,3 +7,27 @@
     Just be aware that you may break some
     of the setup.css styling if you do so.
 */
+*{
+    box-sizing:border-box
+}
+body{
+    margin:0px;
+    font-family:sans-serif;
+}
+.card-style-3{
+    width:350px;
+    border: 10px solid rgb(255, 255, 0);
+    background-color:hwb(120 56% 7%)
+}
+.card-style-3 img{
+    width:100%;
+    padding:20px;
+}
+#pokemon-card-1 {
+    display:flexbox
+    align-items: center;
+    margin: 48px 0px;
+
+}
+
+    

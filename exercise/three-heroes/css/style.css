@@ -19,7 +19,7 @@
     align-items: center;
     }
     #hero-2{
-        background-image: url("../images/h2s.webp");
+        background-image: url("../images/animal.jpg");
         height: 200vh;
         background-size: cover;
         background-position: center center;
@@ -82,7 +82,7 @@
         margin: 9vh 5vw 10vh;
         }
      #hero-3 a {
-            font-size: 4vw;
+            font-size: 3vw;
             display: inline-block;
             background-color: rgb(240, 238, 174);
             color: #000000;

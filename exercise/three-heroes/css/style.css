@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box}
+    
+    body {
+    margin: 0px;
+    font-family: sans-serif;
+    }
+    
+    .spacer {
+    height: 100vh;}
+    
+    #hero-4 {
+    background-image: url("../images/download.jpeg");
+    height: 200vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    #hero-2{
+        background-image: url("../images/h2s.webp");
+        height: 200vh;
+        background-size: cover;
+        background-position: center center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        #hero-3{
+            background-image: url("../images/h3.webp");
+            height: 200vh;
+            background-size: cover;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+    
+    #hero-4 .hero-content {
+    text-align: center;
+    color: rgb(213, 54, 144);
+    padding-top: 40vh;
+    }
+    #hero-2 .hero-content {
+        text-align:left;
+        color: rgb(56, 139, 215);
+        padding-top: 40vh;
+        }
+     #hero-3 .hero-content {
+            text-align:right;
+            color: rgb(210, 77, 65);
+            padding-top: 40vh;
+        }
+    
+    #hero-4 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    }
+    
+    #hero-4 h4 {
+    font-size: 3vw;
+    margin: 0px;
+    }
+    
+    #hero-4 a {
+    font-size: 4vw;
+    display: inline-block;
+    background-color: rgb(245, 163, 228);
+    color: #000000;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 2vw 10vh;
+    }
+    #hero-2 a {
+        font-size: 4vw;
+        display: inline-block;
+        background-color: rgb(181, 219, 236);
+        color: #000000;
+        text-decoration: none;
+        padding: 24px;
+        margin: 9vh 5vw 10vh;
+        }
+     #hero-3 a {
+            font-size: 4vw;
+            display: inline-block;
+            background-color: rgb(240, 238, 174);
+            color: #000000;
+            text-decoration: none;
+            padding: 24px;
+            margin: 9vh 5vw 10vh;
+        }

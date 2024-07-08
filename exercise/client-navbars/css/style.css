@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    }
+    
+    body {
+    margin: 0px;
+    font-family: sans-serif;
+    }
+    
+    
+    #navbar {
+        background: linear-gradient(to bottom, green, #3e6d3e);
+        display: flex;j
+        ustify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+   
+    #navbar2 {
+        background: linear-gradient(to bottom, rgb(128, 115, 0), #815222);
+        display: flex;j
+        ustify-content: space-between;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+        }
+        
+        #navbar3 {
+            background: linear-gradient(to bottom, rgb(128, 70, 0), #815222);
+            display: flex;j
+            ustify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0px;
+            }
+    #navbar a {
+        text-decoration: none;
+        color: white;
+        padding: 24px;
+    }
+    #navbar2 a {
+        text-decoration: none;
+        color: rgb(234, 159, 79);
+        padding: 24px;
+        }
+
+        #navbar3 a {
+            text-decoration: none;
+            color: rgb(247, 168, 111);
+            padding: 24px;
+            }
+    
+    #navbar .cta-buttom {
+        background-color: rgb(6, 49, 4);
+        color: rgb(248, 246, 243);
+        border-radius: 36px;
+        padding: 1px 24px;
+        font-size: 20px;
+        font-weight: bold;
+        min-width: 10px;
+        text-align: center;
+        margin-right: 30px;
+    }
+    #navbar2 .cta-buttom2 {
+        background-color: rgb(86, 59, 10);
+        color: rgb(228, 127, 4);
+        border-radius: 36px;
+        padding: 1px 24px;
+        font-size: 20px;
+        font-weight: bold;
+        min-width: 10px;
+        text-align: center;
+        margin-right: 2px;
+        }
+        #navbar #logo img {
+            width: 90px;}
+        #navbar3 #logo img {
+            width: 120px;}
+
+    #layout {
+        width: 600px;
+        margin: 48px auto;
+        font-size: 24px;height: 150vh;
+    }

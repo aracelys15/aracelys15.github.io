@@ -220,12 +220,11 @@ a {
     .image-container{
     height: 400px;}
     .grid{
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     grid-template-areas:none;}
     }
 
-    #nav .side-by-side{
+    .nav .side-by-side{
         display:flex;
-
-  
+     
     }

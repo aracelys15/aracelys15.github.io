@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;}
+    
+    body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/pawprint.jpeg");
+    }
+    
+    
+    #navbar {
+    background: linear-gradient(to bottom, #eee319,#c3bc3c);
+    display: flex;
+    align-items: center;
+  
+    }
+    
+    #navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(255, 245, 245);
+    padding: 24px;
+    
+    }
+    
+    #navbar a:hover {
+    background: linear-gradient(to top, #b19d2e,#e9e765);}
+    
+    #navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    }
+    
+    
+    .dropdown-container {
+    position: relative;}
+    
+    .dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s,visibility 0.25s;z-index: 10;}
+    
+    
+    .dropdown-container:last-child .dropdown-menu {
+    right: 0px;}
+    
+    
+    .dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;}
+    
+    .dropdown-menu a {
+    background-color: rgb(147, 149, 17);
+    width: 100%;
+    min-width: 200px;}
+    
+    
+    #navbar .dropdown-menu a:hover {
+    background: rgb(165, 160, 7);}
+
+    *{
+        box-sizing:border-box;
+    }
+    body{
+        margin:0px;
+        font-family: sans-serif
+        
+    }
+    
+    .single-column{
+        background-color:rgb(208, 225, 24)
+        width:50%;
+        min-width: 500px
+        max-width:1000px;
+        margin:0px auto;
+        padding:24px;
+        text-align: center;
+    }
+   

@@ -5,8 +5,8 @@
     margin: 0px;
     font-family: sans-serif;
     background-image: url("../images/pawprint.jpeg");
-    }
     
+    }
     
     #navbar {
     background: linear-gradient(to bottom, #eee319,#c3bc3c);
@@ -60,7 +60,8 @@
     
     
     #navbar .dropdown-menu a:hover {
-    background: rgb(165, 160, 7);}
+    background: rgb(165, 160, 7);
+    }
 
     *{
         box-sizing:border-box;
@@ -81,3 +82,7 @@
         text-align: center;
     }
    
+    #img{
+        text-align: center;
+        
+    }

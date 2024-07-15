@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;}
+    
+    body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url(../images/pr.jpeg);
+    background-size: cover;
+    }
+    
+    #navbar {
+    background: linear-gradient(to bottom, #a0dae5,#0e5b96);
+    display: flex;
+    align-items: center;
+    }
+    
+    #navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(250, 250, 250);
+    padding: 24px;
+    }
+    
+    #navbar a:hover {
+    background: linear-gradient(to top, #109cb8,#0e5b96);}
+    
+    #navbar #logo {
+    margin-right: auto;font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+    }
+    
+    .dropdown-container {
+    text-align: right;
+    }
+    
+    
+    .dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s,visibility 0.25s;
+    }
+    
+    
+    .dropdown-container:last-child .dropdown-menu {
+    right: 0px;}
+    
+    
+    .dropdown-container:hover .dropdown-menu {
+    opacity: 1;visibility: visible;}
+    
+    .dropdown-menu a {
+    background-color: rgb(40, 8, 249);
+    width: 100%;
+    min-width: 200px;
+    }
+    
+    #navbar .dropdown-menu a:hover {
+    background: rgb(48, 103, 241);
+    }
+   
+    h2{
+        text-align: center;
+        color:white;
+        background-color: black;
+    }
+
+    
+
+    * {
+        box-sizing: border-box;}
+        
+        body {
+        margin: 0px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        }
+        
+        #cards-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        }
+        
+        .card {
+        flex: 300px;
+        border: 3px solid black;
+        margin: 24px;
+        padding: 24px;
+        border-radius: 12px;
+        background-color:rgb(242, 242, 239);
+        text-align: center;
+        }
+        
+        
+        .card a {
+        text-decoration: none;
+        color: rgb(240, 106, 17);
+        display: block;
+        border: 3px solid black;
+        padding: 12px;
+        margin-top: 36px;}
+       
+        #card5 {
+            position: relative;}
+            
+            #card5 .card-content {
+            position: absolute;
+            background-color: white;border: 3px solid black;
+            border-radius: 12px;box-shadow: 4px 4px 4px #00000033;
+            left: 0px;margin: 0px 24px;
+            padding: 24px;opacity: 0;
+            visibility: hidden;
+            transform: translateY(-8px);
+            transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
+            }
+            
+            #card5:hover .card-content {
+            opacity: 1;visibility: visible;
+            transform: translateY(0px);}
+           
+        #card5{
+            background-color: rgb(170, 206, 226);
+        }

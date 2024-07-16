@@ -4,8 +4,9 @@
     body {
     margin: 0px;
     font-family: sans-serif;
-    background-image: url(../images/pr.jpeg);
+    background-color:lightskyblue ;
     background-size: cover;
+    
     }
     
     #navbar {
@@ -25,7 +26,8 @@
     background: linear-gradient(to top, #109cb8,#0e5b96);}
     
     #navbar #logo {
-    margin-right: auto;font-weight: bold;
+    margin-right: auto;
+    font-weight: bold;
     font-size: 36px;
     padding-top: 13px;
     padding-bottom: 12px;
@@ -63,8 +65,8 @@
    
     h2{
         text-align: center;
-        color:white;
-        background-color: black;
+        color:black;
+        
     }
 
     
@@ -86,7 +88,7 @@
         
         .card {
         flex: 300px;
-        border: 3px solid black;
+        border: 3px solid;
         margin: 24px;
         padding: 24px;
         border-radius: 12px;
@@ -97,9 +99,8 @@
         
         .card a {
         text-decoration: none;
-        color: rgb(240, 106, 17);
         display: block;
-        border: 3px solid black;
+        border: 3px solid;
         padding: 12px;
         margin-top: 36px;}
        
@@ -108,10 +109,14 @@
             
             #card5 .card-content {
             position: absolute;
-            background-color: white;border: 3px solid black;
-            border-radius: 12px;box-shadow: 4px 4px 4px #00000033;
-            left: 0px;margin: 0px 24px;
-            padding: 24px;opacity: 0;
+            background-color: white;
+            border: 3px solid;
+            border-radius: 12px;
+            box-shadow: 4px 4px 4px;
+            left: 0px;
+            margin: 0px 24px;
+            padding: 24px;
+            opacity: 0;
             visibility: hidden;
             transform: translateY(-8px);
             transition: opacity 0.5s,visibility 0.5s,transform 0.5s;
@@ -124,3 +129,64 @@
         #card5{
             background-color: rgb(170, 206, 226);
         }
+
+        h3{ 
+            font-size: 30px;;
+        }
+
+        * {
+            box-sizing: border-box}
+            
+            body {
+            margin: 0px;
+            font-family: Arial, Helvetica, sans-serif;}
+            
+            
+            .single-column {
+            min-width: 600px;
+            max-width: 0px;
+            margin: 0px auto;
+            }
+            
+            #main-section {
+            background: radial-gradient(at top left, #eae079,#5abfc5);
+            padding: 30px;
+            }
+            
+            
+            
+            
+            .side-by-side {
+            display: flex;
+            align-items: center;
+            margin: 0px 0px;
+            border-radius: 100%;
+            }
+            
+            
+            .side-by-side .image-container {
+            flex: 1;
+            }
+            
+            .side-by-side .text-container {
+            flex: 1;
+            padding: 30px;
+            }
+            
+            
+            .side-by-side .image-container img {
+            width: 100%;}
+            
+            .side-by-side .text-container h3 {
+            font-size: 0px;}
+            
+            
+            .side-by-side .text-container a {
+            font-size: 22px;
+            font-weight: bold;
+            text-decoration: none;
+            display: inline-block;
+            background-color: #758ee8;color: white;
+            padding: 2px 48px;
+            border-radius: 8px;}
+            

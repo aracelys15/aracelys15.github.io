@@ -1,0 +1,59 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    font-family: sans-serif;
+    background: linear-gradient(to bottom, #03a01b,#0f6803);
+    color: whitesmoke;
+}
+
+.single-column{
+    background-color:rgb(255, 255, 255)
+    width:50%;
+    min-width: 500px
+    max-width:1000px;
+    margin: 0px auto;
+    padding: 24px;
+    text-align:center;
+    align-items: center;
+    font-size: 30px;
+}
+
+#partya:hover{
+    font-size: bold; 50%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+#helmets{
+    align-items: center;
+    font-family: ;
+
+}
+
+#buttons a{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+    
+    }
+
+#buttons .game{
+    text-align: center;
+    color: white;
+    padding-top: 20vh;
+}
+
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    .single-column{ font-size: 32px;}.buttons{
+        gap: 24px;}.game{
+        height: 300px;}.helmets{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "txt1 img1""img2 img2""img3 img3""img4 txt2";}
+        }

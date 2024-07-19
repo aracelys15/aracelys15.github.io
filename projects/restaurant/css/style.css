@@ -4,13 +4,13 @@
     body {
         margin: 0px;
         font-family: sans-serif;
-        background-color:lightskyblue ;
+        background: linear-gradient(to bottom, rgb(192, 232, 255), #3088b4);
         background-size: cover;
         
     }
     
     #navbar {
-        background: linear-gradient(to bottom, #a0dae5,#0e5b96);
+        background: linear-gradient(to bottom, #7fe7fc,#0e5b96);
         display: flex;
         align-items: right;
     }
@@ -30,7 +30,7 @@
             font-weight: bold;
             font-size: 36px;
             padding-top: 10px;
-            padding-bottom: 0px;
+            padding-bottom: 10px;
             
     }
     
@@ -72,6 +72,39 @@
         color:black;
     }
 
+    * {
+        box-sizing: border-box;}
+        
+        body {
+        margin: 0px;
+        font-family: sans-serif;
+        }
+        
+        
+        #footer {
+        background: linear-gradient(to bottom, rgb(22, 220, 220), #3038aa);
+        color: white;
+        padding: 12px;
+        }
+        
+        #footer a {
+        text-decoration: none;
+        color: white;
+        }
+        
+        #footer-navbar {
+        width: 800px;
+        margin: 0px auto;
+        display: flex;
+        justify-content: space-between;
+        }
+        
+        
+        #layout {
+        width: 800px;
+        margin: 48px auto;
+        font-size: 24px;
+        }
     
 
     * {
@@ -197,3 +230,36 @@
             }
 
             @media screen and (max-width: 768px) and (min-width: 481px) 
+
+            * {
+                box-sizing: border-box}
+                
+                body {
+                margin: 0px;
+                font-family: Arial, Helvetica, sans-serif;
+                }
+                
+                .single-column {
+                min-width: 600px;
+                max-width: 1200px;margin: 0px auto;
+             }
+                
+                .card-container {
+                display: flex;
+                justify-content: space-between;
+                }
+                
+                
+                .card {
+                flex: 1;
+                border: 3px solid #bfefff;
+                padding: 36px;
+                text-align: center;
+                margin: 36px;
+                }
+                
+                .card h3 {
+                font-size: 36px;margin: 0px;}
+                
+                .card p {
+                font-size: 24px;margin: 24px 0px 0px;}
